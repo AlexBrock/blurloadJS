@@ -1,0 +1,46 @@
+html,body{
+	margin:0px;
+}
+.header-image{
+	width:100%;
+	height:auto;
+}
+.header-image img{
+	width:100%;
+	height:auto;
+	filter:blur(0px);
+	-webkit-filter:blur(0px);
+	-moz-filter:blur(0px);
+	-o-filter:blur(0px);
+	-webkit-transition:-webkit-filter 0.2s linear;
+	-moz-transition:-moz-filter 0.2s linear;
+	-o-transition:-o-filter 0.2s linear;
+/*		transition:filter 0.2s linear;*/
+}
+.header-image img.blurred{
+	filter:blur(10px);
+	-webkit-filter:blur(10px);
+	-moz-filter:blur(10px);
+	-o-filter:blur(10px);
+}
+
+
+
+
+
+
+.full-width{
+	width:100%;
+	margin-bottom:2%;
+}
+.row{
+	float:left;
+	width:100%;
+}
+.half-width{
+	width:49%;
+	float:left;
+}
+.half-width:nth-child(2){
+	float:right;
+}
